@@ -14,3 +14,5 @@ import button and import the ecom_db.sql file that we attached. All tables shoul
 We used the root user with no password and the localhost server so that everyone can access it 
 easily. 
 We also made a github reporsitory in case you wanted to download all the files or share them later.
+
+Github Link: https://github.com/nafisK/gitEcom
