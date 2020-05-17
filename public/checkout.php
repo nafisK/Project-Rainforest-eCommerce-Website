@@ -2,9 +2,7 @@
 <?php include(TEMPLATE_FRONT . DS . "header.php") ?>
 <div class="container">
 
-    /*
-    display all checkout values along with sending paypal their info
-    */
+
     <div class="row">
         <h4 class="text-center bg-danger"><?php display_message(); ?></h4>
         <h1>Checkout</h1>
@@ -31,7 +29,6 @@
         </form>
 
 
-        //Right Side Small Cart
         <div class="col-xs-4 pull-right ">
             <h2>Cart Totals</h2>
 
@@ -59,15 +56,12 @@
 
             </table>
 
-        </div><!-- CART TOTALS-->
+        </div>
 
 
     </div>
-    <!--Main Content-->
-
 
 </div>
-<!-- /.container -->
 
 
 

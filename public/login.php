@@ -1,9 +1,6 @@
 <?php require_once("../resources/config.php"); ?>
 <?php include_once(TEMPLATE_FRONT . DS . "header.php") ?>
 
-
-//Login Page Form
-
 <div class="container">
 
     <header>
@@ -34,7 +31,4 @@
 </div>
 
 </div>
-<!-- /.container -->
-
-<!-- Footer -->
 <?php include_once(TEMPLATE_FRONT . DS . "footer.php"); ?>

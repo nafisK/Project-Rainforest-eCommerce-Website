@@ -2,7 +2,6 @@
 <?php include_once(TEMPLATE_FRONT . DS . "header.php") ?>
 <div class="container">
 
-    //Shop Page on front end
 
     <header class="jumbotron hero-spacer">
         <h1>Shop</h1>

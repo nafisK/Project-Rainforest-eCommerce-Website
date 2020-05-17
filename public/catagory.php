@@ -1,9 +1,6 @@
 <?php require_once("../resources/config.php"); ?>
 <?php include_once(TEMPLATE_FRONT . DS . "header.php") ?>
 
-/* Categories Page
-*/
-
 <div class="container">
 
     <header class="jumbotron hero-spacer">

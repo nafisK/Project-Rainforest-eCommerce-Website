@@ -87,7 +87,7 @@ function get_products()
                 <h3>{$row['product_title']}</h3>
                 <p>{$row['short_description']}</p>
                 <p>
-                    <a href="../resources/cart.php?add={$row['product_id']}" class="btn btn-primary">Buy Now!</a> 
+                    <a href="../resources/cart.php?add={$row['product_id']}" class="btn btn-primary">Add to Cart </a> 
                     <a href="item.php?id={$row['product_id']}" class="btn btn-default">More Info</a>
                 </p>
             </div>
@@ -126,9 +126,9 @@ function get_products_in_cat_page()
                     <img src="../resources/{$product_image}" alt="">
                     <div class="caption">
                         <h3>{$row['product_title']}</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>{$row['short_description']}</p>
                         <p>
-                        <a href="../resources/cart.php?add={$row['product_id']}" class="btn btn-primary">Buy Now!</a> <a href="item.php?id={$row['product_id']}" class="btn btn-default">More Info</a>
+                        <a href="../resources/cart.php?add={$row['product_id']}" class="btn btn-primary">Add to Cart</a> <a href="item.php?id={$row['product_id']}" class="btn btn-default">More Info</a>
                         </p>
                     </div>
                 </div>
@@ -154,7 +154,7 @@ function get_products_in_shop()
                         <h3>{$row['product_title']}</h3>
                         <p>{$row['short_description']}</p>
                         <p>
-                            <a href="../resources/cart.php?add={$row['product_id']}" class="btn btn-primary">Buy Now!</a> <a href="item.php?id={$row['product_id']}" class="btn btn-default">More Info</a>
+                            <a href="../resources/cart.php?add={$row['product_id']}" class="btn btn-primary">Add to Cart</a> <a href="item.php?id={$row['product_id']}" class="btn btn-default">More Info</a>
                         </p>
                     </div>
                 </div>

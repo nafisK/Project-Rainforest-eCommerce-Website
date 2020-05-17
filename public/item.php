@@ -2,9 +2,6 @@
 <?php include_once(TEMPLATE_FRONT . DS . "header.php") ?>
 <div class="container">
 
-
-    //Displays the item information individually
-
     <?php include_once(TEMPLATE_FRONT . DS . "catagories.php") ?>
     <?php
     $query = query("SELECT * FROM products WHERE product_id =" . escape_string($_GET['id']) . " ");

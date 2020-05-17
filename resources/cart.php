@@ -1,8 +1,6 @@
-//This file does all the handling for calculating information for the checkout page
-
 <?php require_once("config.php"); ?>
 <?php
-
+/*This file does all the handling for calculating information for the checkout page*/
 //using $_GET methods to initialize calculations
 
 //For adding to cart
