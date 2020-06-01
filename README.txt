@@ -16,6 +16,3 @@ easily.
 We also made a github reporsitory in case you wanted to download all the files or share them later.
 
 Github Link: https://github.com/nafisK/gitEcom
-
-
-
